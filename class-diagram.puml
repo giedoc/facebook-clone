@@ -1,0 +1,111 @@
+@startuml class-diagram
+class user {
+    + user_id: int
+    + user_profile_id: int 
+    + user_name: string
+    + user_password: string 
+    + user_email: string
+    + user_age: int
+    + user_adress:string
+    + add_user()
+    + edit_user()
+    + delete_user()
+    + search_user()
+    + like_post()
+}
+
+class login {
+    + username: string
+    + password : string 
+    + login()
+}
+
+class registration {
+    + user_id: int
+    + user_name: string
+    + user_password: string
+    + register() 
+    
+
+}
+
+class profile {
+    + profile_id: int 
+    + profile_user_name: string
+    + profile_user_password: string
+    + profile_explanation: string
+    + show_profile()
+    + edit_profile()
+}
+
+class post {
+    + post_id: int
+    + post_title: string
+    + post_type: string
+    + post_explanation: string
+    + post_user_id: int
+    + add_post()
+    + edit_post()
+    + delete_post()
+    + search_post()
+}
+
+
+
+class photo {
+    + photo_id: int 
+    + photo_explanation: string
+    + photo_type: string 
+    + photo_name: string 
+    + photo_size: string 
+    + add_photos()
+    + edit_photos()
+    + delete_photos()
+    + search_photos()
+}
+
+class friend {
+    + friend_id: int 
+    + friend_name: string 
+    + friend_email: string 
+    + friend_adress: string 
+    + friend_username: string 
+    + friend_password: string
+    + add_friend()
+    + edit_friend()
+    + delete_friend()
+    + search_friend()
+}
+
+class videos {
+    + video_id: int 
+    + video_name: string
+    + video_type: string 
+    + video_explanation: string
+    + search_videos()
+    + delete_videos()
+    + add_videos()
+    + edit_videos()
+}
+
+class shares {
+    + share_id: int 
+    + share_name: string 
+    + share_explanation: string 
+    + share_type: string
+    + share_post_id: int 
+    + add_shares()
+    + edit_shares()
+    + delete_shares()
+    + search_shares()
+}
+
+
+profile "1" - "1" user
+user "1" - "0..*" post
+user "1" - "0..*" friend 
+user "1" - "0..*" photo
+user "1" - "0..*" shares
+user "1" - "0..*" videos 
+
+@enduml
