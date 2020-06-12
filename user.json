@@ -2,54 +2,54 @@
   "1",
   "2"
 ],{
-  "id": null,
-  "name": "3",
-  "password": "4",
-  "email": "5",
+  "id": "3",
+  "name": "4",
+  "password": "5",
+  "email": "6",
   "age": 23,
-  "adress": "6",
-  "socialnetworks": "7",
-  "posts": "8"
+  "adress": "7",
+  "socialnetworks": "8",
+  "posts": "9"
 },{
-  "id": null,
-  "name": "9",
-  "password": "10",
-  "email": "11",
+  "id": "10",
+  "name": "11",
+  "password": "12",
+  "email": "13",
   "age": 28,
-  "adress": "12",
-  "socialnetworks": "13",
-  "posts": "14"
-},"alp","12323","alptug@gmail.com","Berlin",[],[
-  "15",
-  "16",
+  "adress": "14",
+  "socialnetworks": "15",
+  "posts": "16"
+},"e9e416ae-0a14-4d03-9b27-cbd48c694971","alp","12323","alptug@gmail.com","Berlin",[],[
   "17",
-  "18"
-],"cansu","3551","cansulale@gmail.com","London",[],[],{
-  "text": "19",
-  "type": "20",
-  "shares": "21",
-  "author": "3"
+  "18",
+  "19",
+  "20"
+],"ddbfd96a-aa1d-408f-ae46-d77a639f95b4","cansu","3551","cansulale@gmail.com","London",[],[],{
+  "text": "21",
+  "type": "22",
+  "shares": "23",
+  "author": "4"
 },{
-  "text": "22",
-  "type": "23",
-  "shares": "24",
-  "author": "3"
-},{
-  "text": "25",
-  "type": "20",
+  "text": "24",
+  "type": "25",
   "shares": "26",
-  "author": "3"
+  "author": "4"
 },{
   "text": "27",
-  "type": "23",
+  "type": "22",
   "shares": "28",
-  "author": "3"
+  "author": "4"
+},{
+  "text": "29",
+  "type": "25",
+  "shares": "30",
+  "author": "4"
 },"blabla","photo",[
-  "8"
+  "9"
 ],"fbsdjh","idea",[
-  "8"
+  "9"
 ],"ndfkngjdf",[
-  "8"
+  "9"
 ],"fjnksdnf",[
-  "8"
+  "9"
 ]]

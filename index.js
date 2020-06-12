@@ -10,13 +10,12 @@ function showInfo(user) {
   console.log(user);
 }
 
-// const alp = new User(null, 'alp', '12323', 'alptug@gmail.com', 23, 'Berlin');
-// const cansu = new User(null, 'cansu', '3551', 'cansulale@gmail.com', 28, 'London');
-const mark = new User(null, 'mark', '25=-9', 'markmark@outlook.com', 26, 'Dublin');
+// const alp = new User(undefined, 'alp', '12323', 'alptug@gmail.com', 23, 'Berlin');
+// const cansu = new User(undefined, 'cansu', '3551', 'cansulale@gmail.com', 28, 'London');
+// const mark = new User(undefined, 'mark', '25=-9', 'markmark@outlook.com', 26, 'Dublin');
 
-const facebook = new SocialNetwork('Facebook');
+// const facebook = new SocialNetwork('Facebook');
 
-// const alp = userDatabase.findByName( 'alp');
 
 // alp.sharePost('blabla', 'photo', 'alp');
 // alp.sharePost('fbsdjh', 'idea', 'alp');
@@ -24,16 +23,17 @@ const facebook = new SocialNetwork('Facebook');
 // alp.sharePost('fjnksdnf', 'idea', 'alp');
 
 // userDatabase.save([alp, cansu]);
+
 const alp = userDatabase.findByName('alp');
-// console.log(alp)
+
+
+alp.sharePost('dsdsfdsf', 'sdfsdf', 'sfdsf');
 showInfo(alp);
+
+
 // alp.sharePost('fsdf', 'gnkdfjg', 'alp');
 
 // userDatabase.update(alp)
-
-
-
-
 
 // // const davinci = new Photo('davinci', 'photo', alp.name);
 
@@ -65,3 +65,4 @@ showInfo(alp);
 // // const users = db.load('users');
 
 // // users.forEach((u) => console.log(u.name));
+

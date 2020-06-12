@@ -35,8 +35,9 @@ class User {
     console.log('Hi ' + user.name + ',' + ' will you available tonight ?');
   }
 
-  static create(id, name, password, email, age, address, posts) {
+  static create({id, name, password, email, age, address, posts}) {
     return new User(id, name, password, email, age, address, posts);
   }
+
 }
 module.exports = User;
